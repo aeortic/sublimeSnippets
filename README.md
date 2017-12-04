@@ -2,7 +2,7 @@
 
 Here are the sublime snippets I think are worth sharing.
 
-## Redux Component `rcc + <TAB>
+## Redux Component `rcc + <TAB>`
 ```JS
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
