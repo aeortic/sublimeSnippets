@@ -3,7 +3,7 @@
 Here are the sublime snippets I think are worth sharing.
 
 ## Redux Component `rcc + <TAB>`
-```JS
+```js
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
@@ -45,3 +45,16 @@ export const mapDispatchToProps = (dispatch) => {
 
 export default connect(mapStateToProps, mapDispatchToProps)(Component);
 ```
+
+## React Test is() `rti + <TAB>`
+```js
+it('...', () => {
+  
+});
+```
+
+I'm drawing inspiration from the following libraries:
+<ul>
+    <li>https://github.com/mboperator/sublime-react-es6</li>
+    <li>https://github.com/jeantimex/react-sublime-snippet</li>
+</ul>
